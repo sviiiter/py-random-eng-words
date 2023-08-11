@@ -1,0 +1,13 @@
+telega_token = ''
+telega_chat_id = ''
+
+dirpath = '/app/'
+source_filename = 'storage/words.list'
+queue_filename = 'storage/queue.list'
+
+site_words_url = 'http://www.7english.ru/dictionary.php?id=3500'
+
+chunk_size = 10
+
+source_filename = dirpath + source_filename
+queue_filename = dirpath + queue_filename
